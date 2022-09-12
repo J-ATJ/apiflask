@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Roboto&display=swap');
+        body {
+            background: linear-gradient(90deg, #fff, #aaf, #eaf);
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.3rem;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            background-color: red;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+        }
+        .info{
+            align-items: center;
+            background-color: #f5f6ff;
+            border: solid ;
+            border-radius: 15px;
+            color: #003;
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            justify-content: center;
+            margin: 100px auto 0 auto;
+            width: 400px;
+        }
+    </style>
+    <title>Driver</title>
+</head>
+
+<body>
+    <h1>Formula 1 Drivers Info</h1>
+    <div class="info">
+        <h2>{{ givenName }} {{ familyName }} </h2>
+        <h3># {{ permanentNumber }}</h3>
+        <h3>{{ nationality }}</h3>
+    </div>
+</body>
+
+</html>
